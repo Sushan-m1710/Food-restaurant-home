@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body{
+  background-image: linear-gradient(rgba(3, 32, 60, 0.775) , rgba(3, 32, 60, 0.667)),url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-position:center;
+  background-size: cover;
+  margin: 50px 70px;
+}
+.navbar{
+  height: 15vh;
+  display:flex;
+  width: 100%;
+}
+
+
+ul{
+  display: flex;
+  margin: 20px 200px;
+  /* margin-right: 100px; */
+  list-style-type: none;
+}
+li{
+  margin: 0 40px;
+}
+.button-small{
+
+  font-size: 20px;
+  font-weight: 600;
+  padding: 13px 40px;
+  background-color: #FF6263;
+  color: #fff;
+  border: none;
+}
+ 
+.list-item{
+  font-size: 20px;
+  color: #F7CD2E;
+}
+
+.hero{
+  text-align: center;
+}
+.hero-heading{
+  font-family: 'dela gothic one',sans-serif;
+  font-size: 110px;
+  color: #F7CD2E;
+  font-weight: 500;
+  padding: 50px 75px 30px 80px;
+}
+.button-large{
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #FF6263;
+  padding: 20px 50px;
+  border: none;
+}
+
+.bottom img{
+  position: relative;
+  left: 40%;
+}
